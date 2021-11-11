@@ -1,5 +1,5 @@
 #include<iostream>
-// #include<graphic.h>
+
 using namespace std;
 
 string arr1[20],arr2[20],arr3[20],arr4[20],arr5[20];
