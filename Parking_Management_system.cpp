@@ -12,7 +12,7 @@ void enter()       //funciton for entering new data
 
 		int ch=0;  //choice 
 
-			cout<<"How many Transport do u want to enter??"<<endl;
+			cout<<"How many Transport do you want to enter ?"<<endl;
 
 			cin>>ch;
 
@@ -115,7 +115,7 @@ cout<<"---------------------------\n";
 	    		{
 
 	    		cout<<"\nData of Transport: "<<i+1<<endl<<endl;
-
+ 
 	    		cout<<"transport Name: "<<arr1[i]<<endl;
 
 	    		cout<<"Plate Number: "<<arr2[i]<<endl;
@@ -146,17 +146,17 @@ void search()        // function : we user want to search their data
 
 	else{
 
-	string rollno;       // specific rol
+	string Plate_no;       // specific rol
 
 				cout<<"Enter the Number Plate of Transport: "<<endl;
 
-				cin>>rollno;
+				cin>>Plate_no;
 
 				for(int i=0;i<total;i++)
 
 				{
 
-					if(rollno==arr2[i])
+					if(Plate_no==arr2[i])
 
 					{
 
@@ -349,13 +349,14 @@ void deleterecord()    //for delete any type of data
 
 }
 
-main()
+int main()
 
 {
 
 	int value;
-cout<<"****************************************************************************************************************************************************\n";
-		cout<<"\n\n\t\t\t\t\t\t\t\t\t****************** WELCOME TO PARKING MANAGEMENT SYSTEM ******************"<<endl<<endl<<endl;
+cout<<"*********************************************************************************************************************************************\n";
+cout<<"\n\n\t\t\t\t******************            MINI PROJECT             ******************"<<endl;
+		cout<<"\n\t\t\t\t****************** WELCOME TO PARKING MANAGEMENT SYSTEM ******************"<<endl<<endl<<endl;
 	while(true)
 
 	{
